@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flex Box</title>
+    <!--<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>-->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="flex-container">
+    <a href="#"><img src="logo.png" alt="Logo" height="100%"></a>
+    <nav>
+       <ul class="flex-container">
+           <li><a href="#">Link 1</a></li>
+           <li><a href="#">Link 2</a></li>
+           <li><a href="#">Link 3</a></li>
+       </ul>
+    </nav>
+</header>
+
+<div class="main flex-container">
+    <aside>
+        <h1>Table of Contents</h1>
+        <nav>
+            <a href="#">List Item</a>
+            <a href="#">List Item</a>
+            <a href="#">List Item</a>
+            <a href="#">List Item</a>
+        </nav>
+    </aside>
+    <section class="flex-container">
+
+        <article>
+            <div class="title">
+                <h1>My Flex Box Cheat Sheet</h1>
+            </div>
+
+        <h2>Flex-direction</h2>
+
+        <p>Default behaviour</p>
+
+        <div class="border flex">
+            <div class="border">A</div>
+            <div class="border">B</div>
+            <div class="border">C</div>
+        </div>
+        
+        <p>Row-reverse</p>
+
+        <div class="border flex row-reverse">
+            <div class="border">A</div>
+            <div class="border">B</div>
+            <div class="border">C</div>
+        </div>
+
+        <p>Column</p>
+        
+        <div class="border flex column">
+            <div class="border">A</div>
+            <div class="border">B</div>
+            <div class="border">C</div>
+        </div>
+
+        <p>Column-reverse</p>
+
+        <div class="border flex column-reverse">
+            <div class="border">A</div>
+            <div class="border">B</div>
+            <div class="border">C</div>
+        </div>
+
+        <h2>Justify-content</h2>
+
+        <p>Flex-start is default</p>
+
+        <p>Flex-end</p>
+
+        <div class="border flex justify-end">
+            <div class="border">A</div>
+            <div class="border">B</div>
+            <div class="border">C</div>
+        </div>
+
+        <p>Flex-end on row-reverse</p>
+
+        <div class="border flex row-reverse justify-end">
+            <div class="border">A</div>
+            <div class="border">B</div>
+            <div class="border">C</div>
+        </div>
+
+        <p>Flex-center</p>
+
+        <div class="border flex justify-center">
+            <div class="border">A</div>
+            <div class="border">B</div>
+            <div class="border">C</div>
+        </div>
+
+        <p>Space-between</p>
+
+        <div class="border flex justify-between">
+            <div class="border">A</div>
+            <div class="border">B</div>
+            <div class="border">C</div>
+        </div>
+
+        <p>Space-around</p>
+
+        <div class="border flex justify-around">
+            <div class="border">A</div>
+            <div class="border">B</div>
+            <div class="border">C</div>
+        </div>
+
+        <h2>Align-items</h2>
+
+        <p>Flex-start</p>
+
+        <div class="border flex align-start">
+            <div class="border">A Sit hic deserunt deserunt blanditiis provident veniam mollitia! Iusto culpa suscipit quasi voluptatibus neque animi lorem? Sint soluta dolorum earum dolores illo omnis quia, impedit voluptas praesentium inventore. Reprehenderit beatae.
+                Ipsum accusamus ipsam dolor deleniti provident. Corporis modi veniam doloribus eaque excepturi quisquam consequuntur ipsam? Repellat omnis sit magnam rerum numquam. Debitis veritatis sunt repellat nostrum temporibus laboriosam sequi eius!
+            </div>
+            <div class="border">B Elit aspernatur dolor enim ut modi. Unde quos ex modi obcaecati optio minima corporis excepturi? Adipisci doloremque commodi dolorum delectus dolores! Accusantium doloribus modi porro qui aspernatur magni dignissimos. Provident!</div>
+            <div class="border">C Sit totam labore voluptatem omnis a suscipit impedit debitis obcaecati ipsum. Itaque tempora rem animi sit dolorem quos! Dignissimos repudiandae minus laborum ab porro corporis. Reiciendis consequatur numquam quaerat quibusdam.</div>
+        </div>
+
+        <p>Flex-end</p>
+
+        <div class="border flex align-end">
+            <div class="border">A Sit hic deserunt deserunt blanditiis provident veniam mollitia! Iusto culpa suscipit quasi voluptatibus neque animi lorem? Sint soluta dolorum earum dolores illo omnis quia, impedit voluptas praesentium inventore. Reprehenderit beatae.
+                Ipsum accusamus ipsam dolor deleniti provident. Corporis modi veniam doloribus eaque excepturi quisquam consequuntur ipsam? Repellat omnis sit magnam rerum numquam. Debitis veritatis sunt repellat nostrum temporibus laboriosam sequi eius!
+            </div>
+            <div class="border">B Elit aspernatur dolor enim ut modi. Unde quos ex modi obcaecati optio minima corporis excepturi? Adipisci doloremque commodi dolorum delectus dolores! Accusantium doloribus modi porro qui aspernatur magni dignissimos. Provident!</div>
+            <div class="border">C Sit totam labore voluptatem omnis a suscipit impedit debitis obcaecati ipsum. Itaque tempora rem animi sit dolorem quos! Dignissimos repudiandae minus laborum ab porro corporis. Reiciendis consequatur numquam quaerat quibusdam.</div>
+        </div>
+
+        <p>Flex-center</p>
+
+        <div class="border flex align-center">
+            <div class="border">A Sit hic deserunt deserunt blanditiis provident veniam mollitia! Iusto culpa suscipit quasi voluptatibus neque animi lorem? Sint soluta dolorum earum dolores illo omnis quia, impedit voluptas praesentium inventore. Reprehenderit beatae.
+                Ipsum accusamus ipsam dolor deleniti provident. Corporis modi veniam doloribus eaque excepturi quisquam consequuntur ipsam? Repellat omnis sit magnam rerum numquam. Debitis veritatis sunt repellat nostrum temporibus laboriosam sequi eius!
+            </div>
+            <div class="border">B Elit aspernatur dolor enim ut modi. Unde quos ex modi obcaecati optio minima corporis excepturi? Adipisci doloremque commodi dolorum delectus dolores! Accusantium doloribus modi porro qui aspernatur magni dignissimos. Provident!</div>
+            <div class="border">C Sit totam labore voluptatem omnis a suscipit impedit debitis obcaecati ipsum. Itaque tempora rem animi sit dolorem quos! Dignissimos repudiandae minus laborum ab porro corporis. Reiciendis consequatur numquam quaerat quibusdam.</div>
+        </div>
+
+        <p>Baseline <br>
+        All flex items are aligned such that their baselines align
+        </p>
+
+        <div class="border flex align-baseline">
+            <div class="border"><small>A Sit hic deserunt</small><br>
+                deserunt blanditiis provident veniam mollitia! Iusto culpa suscipit quasi voluptatibus neque animi lorem? Sint soluta dolorum earum dolores illo omnis quia, impedit voluptas praesentium inventore. Reprehenderit beatae.
+                Ipsum accusamus ipsam dolor deleniti provident. Corporis modi veniam doloribus eaque excepturi quisquam consequuntur ipsam? Repellat omnis sit magnam rerum numquam. Debitis veritatis sunt repellat nostrum temporibus laboriosam sequi eius!
+            </div>
+            <div class="border" style="margin-top: 40px">B Elit aspernatur dolor enim ut modi. Unde quos ex modi obcaecati optio minima corporis excepturi? Adipisci doloremque commodi dolorum delectus dolores! Accusantium doloribus modi porro qui aspernatur magni dignissimos. Provident!</div>
+            <div class="border"><h3>C Sit totam labore</h3> voluptatem omnis a suscipit impedit debitis obcaecati ipsum. Itaque tempora rem animi sit dolorem quos! Dignissimos repudiandae minus laborum ab porro corporis. Reiciendis consequatur numquam quaerat quibusdam.</div>
+        </div>
+
+        <p>Stretch (this is the default behaviour)</p>
+
+        <div class="border flex align-stretch">
+            <div class="border">A Sit hic deserunt deserunt blanditiis provident veniam mollitia! Iusto culpa suscipit quasi voluptatibus neque animi lorem? Sint soluta dolorum earum dolores illo omnis quia, impedit voluptas praesentium inventore. Reprehenderit beatae.
+                Ipsum accusamus ipsam dolor deleniti provident. Corporis modi veniam doloribus eaque excepturi quisquam consequuntur ipsam? Repellat omnis sit magnam rerum numquam. Debitis veritatis sunt repellat nostrum temporibus laboriosam sequi eius!
+            </div>
+            <div class="border">B Elit aspernatur dolor enim ut modi. Unde quos ex modi obcaecati optio minima corporis excepturi? Adipisci doloremque commodi dolorum delectus dolores! Accusantium doloribus modi porro qui aspernatur magni dignissimos. Provident!</div>
+            <div class="border">C Sit totam labore voluptatem omnis a suscipit impedit debitis obcaecati ipsum. Itaque tempora rem animi sit dolorem quos! Dignissimos repudiandae minus laborum ab porro corporis. Reiciendis consequatur numquam quaerat quibusdam.</div>
+        </div>
+
+        <h2>Align-self</h2>
+        <p>Basically this property of an item overrides the parent's align-items. Here the property with the value center on the second item</p>
+
+        <div class="border flex align-stretch">
+            <div class="border">A Sit hic deserunt deserunt blanditiis provident veniam mollitia! Iusto culpa suscipit quasi voluptatibus neque animi lorem? Sint soluta dolorum earum dolores illo omnis quia, impedit voluptas praesentium inventore. Reprehenderit beatae.
+                Ipsum accusamus ipsam dolor deleniti provident. Corporis modi veniam doloribus eaque excepturi quisquam consequuntur ipsam? Repellat omnis sit magnam rerum numquam. Debitis veritatis sunt repellat nostrum temporibus laboriosam sequi eius!
+            </div>
+            <div class="border self-center">B Elit aspernatur dolor enim ut modi. Unde quos ex modi obcaecati optio minima corporis excepturi? Adipisci doloremque commodi dolorum delectus dolores! Accusantium doloribus modi porro qui aspernatur magni dignissimos. Provident!</div>
+            <div class="border">C Sit totam labore voluptatem omnis a suscipit impedit debitis obcaecati ipsum. Itaque tempora rem animi sit dolorem quos! Dignissimos repudiandae minus laborum ab porro corporis. Reiciendis consequatur numquam quaerat quibusdam.</div>
+        </div>
+
+        <h2>Order</h2>
+
+        <p>Order property on items re-arrange the order they are display in the parent. Here the second item has an <code>order</code> of 3. Negative numbers are valid values</p>
+
+        <div class="border flex">
+            <div class="border">A</div>
+            <div class="border order-3">B</div>
+            <div class="border">C</div>
+        </div>
+
+        <h2>Flex-wrap</h2>
+
+        <p>Nowrap (default)</p>
+
+        <div class="border flex nowrap">
+            <div class="border">A Sit hic deserunt deserunt blanditiis provident 
+            </div>
+            <div class="border">B Elit aspernatur dolor enim ut modi.
+            </div>
+            <div class="border">C Sit totam labore voluptatem omnis a suscipit impedit debitis obcaecati ipsum. Itaque tempora rem animi sit dolorem quos!
+            </div>
+        </div>
+
+        <p>Wrap</p>
+
+        <div class="border flex wrap">
+            <div class="border">A Sit hic deserunt deserunt blanditiis provident 
+            </div>
+            <div class="border">B Elit aspernatur dolor enim ut modi.
+            </div>
+            <div class="border">C Sit totam labore voluptatem omnis a suscipit impedit debitis obcaecati ipsum. Itaque tempora rem animi sit dolorem quos!
+            </div>
+        </div>
+
+        <p>Wrap-reverse</p>
+
+        <div class="border flex wrap-reverse">
+            <div class="border">A Sit hic deserunt deserunt blanditiis provident 
+            </div>
+            <div class="border">B Elit aspernatur dolor enim ut modi.
+            </div>
+            <div class="border">C Sit totam labore voluptatem omnis a suscipit impedit debitis obcaecati ipsum. Itaque tempora rem animi sit dolorem quos!
+            </div>
+        </div>
+
+        <h2>Flex-flow</h2>
+
+        <p>Flex-flow is a shorthand property for <code>flex-direction</code> and <code>flex-wrap</code>:</p>
+
+<pre><code>/* flex-flow: <'flex-direction'> */
+flex-flow: row;
+flex-flow: row-reverse;
+flex-flow: column;
+flex-flow: column-reverse;
+
+/* flex-flow: <'flex-wrap'> */
+flex-flow: nowrap;
+flex-flow: wrap;
+flex-flow: wrap-reverse;
+
+/* flex-flow: <'flex-direction'> and <'flex-wrap'> */
+flex-flow: row nowrap;
+flex-flow: column wrap;
+flex-flow: column-reverse wrap-reverse;</code></pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <h2>Sources</h2>
+        <ul>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes">Using flexible boxes (MDN)</a></li>
+            <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">A Complete Guide to Flexbox</a></li>
+        </ul>
+
+            
+
+        </article>
+
+        <footer>By <a href="http://github.com/summerkitsune">summerkitsune</a> - This work is distributed under the <a href="license.md">MIT License</a></footer>
+    </section>
+
+</div>
+
+</body>
+</html>

@@ -124,17 +124,21 @@ article h1 {
     font-weight: normal;
 }
 
-.super {
-    margin: 16px -1em;
-    padding: 1em;
-    background-color: #bbb;
-}
 
 footer {
     min-height: 100px;
     margin-top: 50px;
     padding: 1em;
     text-align: center;
+    background-color: #eee;
+}
+
+pre code {
+    font-family: monospace;
+}
+.super {
+    margin: 16px -16px;
+    padding: 16px;
     background-color: #eee;
 }
 
